@@ -1,0 +1,1 @@
+execute if entity @p[distance=..6] unless block ~ ~-1 ~ yellow_wool run function block_properties:break

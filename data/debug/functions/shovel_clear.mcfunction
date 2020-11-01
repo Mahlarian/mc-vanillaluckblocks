@@ -1,0 +1,2 @@
+execute as @a[y=56,nbt={SelectedItem:{id:"minecraft:golden_shovel",Count:1b}}] at @s run fill ~3 ~ ~3 ~-3 ~-5 ~-3 sandstone
+execute as @a[nbt={SelectedItem:{id:"minecraft:golden_shovel",Count:1b}}] at @s run fill ~3 ~ ~3 ~-3 ~10 ~-3 air
