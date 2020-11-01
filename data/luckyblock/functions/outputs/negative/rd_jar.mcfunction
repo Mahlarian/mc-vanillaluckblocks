@@ -15,7 +15,7 @@ execute if score tick lb_timer matches 80 at @e[tag=rdjar_spawn] run setblock ~ 
 execute if score tick lb_timer matches 100 at @e[tag=rdjar_spawn] run setblock ~ ~4 ~ water
 execute if score tick lb_timer matches 120 at @e[tag=rdjar_spawn] run setblock ~ ~5 ~ water
 # cleanup
-execute if score tick lb_timer matches 121 run schedule clear luckyblock:outputs/negative/rd_jar
-execute as @e[tag=rdjar_spawn] if score tick lb_timer matches 121 run kill @s
-execute as @e[tag=lb_breaklocation] if score tick lb_timer matches 121 run kill @s
-execute if score tick lb_timer matches 121 run scoreboard players set tick lb_timer 0
+execute if score tick lb_timer matches 121.. run schedule clear luckyblock:outputs/negative/rd_jar
+execute as @e[tag=rdjar_spawn] if score tick lb_timer matches 121.. run kill @s
+execute as @e[tag=lb_breaklocation] if score tick lb_timer matches 121.. run kill @s
+execute if score tick lb_timer matches 121.. run scoreboard players set tick lb_timer 0

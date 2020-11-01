@@ -15,6 +15,6 @@ execute at @e[tag=ore_location] if score tick lb_timer matches 35 run summon fal
 execute at @e[tag=ore_location] if score tick lb_timer matches 40 run summon falling_block ~ ~12 ~ {BlockState:{Name:"minecraft:emerald_ore"},Time:1}
 execute at @e[tag=ore_location] if score tick lb_timer matches 60 run summon lightning_bolt ~ ~10 ~
 # cleanup
-execute if score tick lb_timer matches 61 run schedule clear luckyblock:outputs/positive/ore_tower
-execute as @e[tag=ore_location] if score tick lb_timer matches 61 run kill @s
-execute if score tick lb_timer matches 61 run scoreboard players set tick lb_timer 0
+execute if score tick lb_timer matches 61.. run schedule clear luckyblock:outputs/positive/ore_tower
+execute as @e[tag=ore_location] if score tick lb_timer matches 61.. run kill @s
+execute if score tick lb_timer matches 61.. run scoreboard players set tick lb_timer 0

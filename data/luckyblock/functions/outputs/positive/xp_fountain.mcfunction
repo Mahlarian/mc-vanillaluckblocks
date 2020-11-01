@@ -13,6 +13,6 @@ execute at @e[tag=xporb_location] if score tick lb_timer matches 25 run summon e
 execute at @e[tag=xporb_location] if score tick lb_timer matches 30 run summon experience_orb ~ ~1 ~ {Value:100,Motion:[-0.2,0.5,0.0]}
 execute at @e[tag=xporb_location] if score tick lb_timer matches 35 run summon experience_orb ~ ~1 ~ {Value:100,Motion:[0.2,0.5,-0.2]}
 # cleanup
-execute if score tick lb_timer matches 36 run schedule clear luckyblock:outputs/positive/xp_fountain
-execute as @e[tag=xporb_location] if score tick lb_timer matches 36 run kill @s
-execute if score tick lb_timer matches 36 run scoreboard players set tick lb_timer 0
+execute if score tick lb_timer matches 36.. run schedule clear luckyblock:outputs/positive/xp_fountain
+execute as @e[tag=xporb_location] if score tick lb_timer matches 36.. run kill @s
+execute if score tick lb_timer matches 36.. run scoreboard players set tick lb_timer 0
