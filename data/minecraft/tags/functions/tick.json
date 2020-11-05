@@ -1,6 +1,7 @@
 {
     "values":[
         "debug:shovel_clear",
-        "block_properties:loop"
+        "block_properties:loop",
+        "luckyblock:game_loop"
         ]
     }
