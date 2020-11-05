@@ -10,3 +10,4 @@ execute if score number RNG_77 matches 3 run function luckyblock:outputs/positiv
 execute if score number RNG_77 matches 4 run function luckyblock:outputs/negative/creeper_spawn
 execute if score number RNG_77 matches 5 run function luckyblock:outputs/negative/rd_jar
 execute if score number RNG_77 matches 6 run function luckyblock:outputs/positive/ore_tower
+execute if score number RNG_77 matches 7 run function luckyblock:outputs/negative/vacuumsucc
