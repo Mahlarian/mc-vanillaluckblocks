@@ -18,13 +18,15 @@ replace this text when configuring is ready
 
 ## Credits
 
-This pack would not be possible with these people, thank you so much to them for letting me use their tools to make this possible!
+This pack would not be possible without these people, thank you so much to them for letting me use their tools to make this possible!
 
 JDawgtor - Custom Structure Generator
+
 [Website](https://jdawgtor.com/)
 [Youtube](https://www.youtube.com/user/thejdawgtor)
 
 fafik77 - Random Number Generator
+
 [PlanetMC](https://www.planetminecraft.com/member/fafik77/)
 
 ## License
