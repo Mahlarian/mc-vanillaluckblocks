@@ -1,0 +1,1 @@
+give @s chicken_spawn_egg{display:{Name:'{"text":"Lucky Block","color":"yellow","italic":false}',Lore:['{"text":"How will luck treat you?","color":"white","italic":true}']},CustomModelData:1,EntityTag:{id:"minecraft:area_effect_cloud",Radius:0f,Age:-500,Tags:["lb_placeholder"]}} 1
