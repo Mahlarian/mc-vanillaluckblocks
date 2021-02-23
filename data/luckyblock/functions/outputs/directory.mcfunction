@@ -11,3 +11,4 @@ execute if score number RNG_77 matches 4 run function luckyblock:outputs/negativ
 execute if score number RNG_77 matches 5 run function luckyblock:outputs/negative/rd_jar
 execute if score number RNG_77 matches 6 run function luckyblock:outputs/positive/ore_tower
 execute if score number RNG_77 matches 7 run function luckyblock:outputs/negative/vacuumsucc
+execute if score number RNG_77 matches 8 run function luckyblock:outputs/positive/deathrun
