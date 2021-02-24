@@ -24,6 +24,7 @@ execute if score deathrun_t lb_timer matches 4 as @e[tag=dr_locator] at @s run t
 execute if score deathrun_t lb_timer matches 4 as @e[tag=dr_locator] at @s run tp @a[tag=dr_player] ~ ~1 ~
 execute if score deathrun_t lb_timer matches 4 as @e[tag=dr_locator] at @s run gamemode adventure @a[gamemode=survival,tag=dr_player]
 execute if score deathrun_t lb_timer matches 4 run tellraw @a[tag=dr_player] {"text":"Warning: Water is lethal","color":"red"}
+execute if score deathrun_t lb_timer matches 84 run playsound block.note_block.pling master @a[tag=dr_player] ~ ~ ~ 1000 0.5
 execute if score deathrun_t lb_timer matches 84 run tellraw @a[tag=dr_player] {"text":"Water levels are rising!","color":"red"}
 execute if score deathrun_t lb_timer matches 104 as @e[tag=dr_locator] at @s run fill ~4 ~ ~4 ~-4 ~ ~-4 water replace air
 execute if score deathrun_t lb_timer matches 164 as @e[tag=dr_locator] at @s run fill ~4 ~1 ~4 ~-4 ~1 ~-4 water replace air
